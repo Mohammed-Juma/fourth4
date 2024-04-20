@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    color: #fff;
+    text-decoration:none ;
+}
+.container{
+    background-image: 
+    linear-gradient(to right,#01022de5 30%,#00000059),
+    url(IMG_٢٠٢٣١٢١٦_١٩١٣٥٧.jpg)
+    ;
+    width: 75%;
+    height: 610px;
+}
+
+.container:hover{
+    background-image: 
+    linear-gradient(to right,#01022de5 30%,transparent),
+    url(IMG_٢٠٢٣١٢١٦_١٩١٣٥٧.jpg)
+    ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+
+}
+ul a:hover
+{
+    border-bottom-color: #fff;
+}
+content{
+    
+}
+
